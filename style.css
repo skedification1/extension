@@ -1,0 +1,99 @@
+.layer_bg {
+    position: fixed;
+    top: 49px;
+    left: 0;
+    width: 250px;
+    height: 400px;
+    border-radius: 5px;
+    background: #000;
+    opacity: .8;
+    z-index: 999;
+
+  }
+  .gecoImg{ 
+    position: fixed;
+    width: 150px;
+    height: auto;
+
+ /* background: url("https://static.coingecko.com/s/cny_2023_logo-5c7d260594cea89b082d811546586e0b02422a6d222f5513c74e0d6b6706ada0.png"); */
+  
+     
+  
+  
+ /* src: url("images/geco1.png"); */
+
+
+    top: 250px;
+   left: 15px;
+    z-index: 1001;
+  }
+/* https://static.coingecko.com/s/cny_2023_logo-5c7d260594cea89b082d811546586e0b02422a6d222f5513c74e0d6b6706ada0.png */
+
+.clock_extension {
+    position: fixed;
+    top: 20px;
+    left: 15px;
+    z-index: 1000;
+    font-size: 22px;
+}
+.clock_extension2 {
+    position: fixed;
+    top: 60px;
+    left: 29px;
+    color: red;
+    z-index: 1000;
+    font-size: 32px;
+}
+.btc_price {
+    position: fixed;
+    top: 95px;
+    left: 29px;
+    color: rgb(243, 179, 3);
+    z-index: 1000;
+    font-size: 22px;
+}
+.eth_price{
+    position: fixed;
+    top: 120px;
+    left: 29px;
+    color: rgb(104, 91, 175);
+    z-index: 1000;
+    font-size: 22px;
+}
+.dot_price{
+    position: fixed;
+    top: 145px;
+    left: 29px;
+    color: rgb(194, 71, 122);
+    z-index: 1000;
+    font-size: 22px;
+}
+.moonbeam_price{
+    position: fixed;
+    top: 170px;
+    left: 29px;
+    color: rgb(69, 207, 184);
+    z-index: 1000;
+    font-size: 22px;
+}
+.biswap_price{
+    position: fixed;
+    top: 195px;
+    left: 29px;
+    /* color: rgb(11, 37, 182); */
+   color: rgb(45, 106, 187);
+    z-index: 1000;
+    font-size: 22px;
+}
+.floki_price{
+    position: fixed;
+    top: 220px;
+    left: 29px;
+    color: rgb(170, 103, 1);
+    z-index: 1000;
+    font-size: 22px;
+}
+
+.hide {
+    display: none;
+}
